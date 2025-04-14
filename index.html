@@ -1,27 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AIIS Lab - Artificial Intelligence and Intelligent Systems Laboratory" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <title>AIIS Lab</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #212529;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    header img {
+      height: 160px;
+      display: block;
+      margin: 0 auto 1rem auto; /* Perfectly center logo */
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0.5rem 0;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin: 0.5rem 0;
+    }
+    p {
+      max-width: 800px;
+      line-height: 1.5;
+    }
+    .about p {
+      text-align: left;
+    }
+    section {
+      max-width: 800px;
+      margin-top: 2rem;
+    }
+    section h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello World</h1>
+  <header>
+    <img src="logo.png" alt="AIIS Lab Logo" />
+    <h1>AIIS Lab</h1>
+    <h2>Artificial Intelligence & Intelligent Systems Laboratory</h2>
+    <p>
+      Led by <strong>Thanos Panagopoulos</strong> (visit
+      <a href="https://apanagopoulos.com" target="_blank">apanagopoulos.com</a> for more information).
+    </p>
+  </header>
+
+  <section class="about">
+    <h3>About the Lab</h3>
+    <p>
+      The Artificial Intelligence and Intelligent Systems (AIIS) Laboratory at California State University, Fresno, focuses on advancing research in various domains of Artificial Intelligence and Computer Science. The lab explores areas including:
+    </p>
+    <ul>
+      <li>Machine Learning (Reinforcement Learning, Supervised Learning, Approximation Methods)</li>
+      <li>Data Mining (Massive Data Sets, Feature Selection, Dimensionality Reduction)</li>
+      <li>Control Theory (Decision-making, Intelligent/Optimal/Adaptive Control, System Identification)</li>
+      <li>Multiagent Systems (Stochastic Games, Multiagent Learning, Algorithmic Game Theory)</li>
+      <li>Optimization (Dynamic/Integer Programming, Multiobjective Optimization)</li>
+      <li>Intelligent Systems (Smart Grid/Home/City/Agriculture, Human-agent Collectives, Internet of Things)</li>
+      <li>Artificial Intelligence and Society (Explainable AI, Socioeconomic and Environmental Implications)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Notable Projects</h3>
+    <ul>
+      <li><strong>Hibiki-AI</strong>: A State of California-funded AI Fast Challenge grant aiming to develop a generative AI-driven learning platform about Japanese American internment during WWII.</li>
+      <li><strong>Agr-IoT</strong>: Promotes irrigation automation to conserve on-farm resources via the development of a low-cost, expandable, open-source farm network infrastructure and operating system.</li>
+      <li><strong>iGWAVE</strong>: Developed machine learning-based gravitational wave identification methods to empower the LIGO pipeline.</li>
+      <li><strong>ROLLAM</strong>: Aims to fortify the robustness of large language models and certify their performance.</li>
+      <li><strong>iAgriculture DMS</strong>: Develops data management technology to support user-friendly and effective intelligent agriculture technology with an emphasis on precision irrigation.</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; <span id="year"></span> Thanos Panagopoulos. All rights reserved.
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
-
-
-<style>
-    h1 {
-        color: red;
-    }
-</style>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        document.querySelector('h1').addEventListener('click', function() {
-            alert('Hello World');
-        });
-    });
-</script>       
-    
