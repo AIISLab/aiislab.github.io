@@ -3,305 +3,387 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="AIIS Lab - Artificial Intelligence and Intelligent Systems Laboratory" />
+
+  <meta
+    name="description"
+    content="Artificial Intelligence & Intelligent Systems Laboratory (AIIS) at California State University, Fresno."
+  />
+
   <link rel="icon" type="image/png" href="favicon.png" />
-  <title>AIIS Lab</title>
+
+  <title>AIIS Lab | Artificial Intelligence & Intelligent Systems Laboratory</title>
+
   <style>
     body {
       margin: 0;
+      padding: 2rem;
       font-family: Arial, sans-serif;
       background-color: #f8f9fa;
       color: #212529;
+
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 2rem;
     }
+
     header {
+      width: 100%;
+      max-width: 800px;
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
+
     header img {
       height: 160px;
       display: block;
       margin: 0 auto 1rem auto;
     }
-    h1 {
-      font-size: 2rem;
-      margin: 0.5rem 0;
+
+    header h1 {
+      font-size: 1.8rem;
+      margin: 0.5rem 0 0.25rem 0;
     }
-    h2 {
-      font-size: 1.5rem;
-      margin: 0.5rem 0;
+
+    header h2 {
+      font-size: 1.1rem;
+      font-weight: normal;
+      color: #6c757d;
+      margin: 0 0 0.5rem 0;
     }
+
     p {
       max-width: 800px;
-      line-height: 1.5;
+      line-height: 1.6;
     }
-    .about p {
-      text-align: left;
-    }
+
     section {
+      width: 100%;
       max-width: 800px;
       margin-top: 2rem;
     }
+
+    section + section {
+      border-top: 1px solid #e1e4e8;
+      padding-top: 1.5rem;
+    }
+
     section h3 {
       font-size: 1.25rem;
-      margin-bottom: 0.5rem;
+      margin: 0 0 0.75rem 0;
     }
+
     ul {
-      list-style-type: disc;
       padding-left: 1.5rem;
     }
-    footer {
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      color: #6c757d;
+
+    li {
+      margin-bottom: 0.7rem;
+      line-height: 1.5;
     }
+
     a {
       color: #007bff;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
-    header {
-  max-width: 800px;
-}
 
-header h1 {
-  font-size: 1.8rem;
-  margin-bottom: 0.25rem;
-}
+    .join {
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+    }
 
-header h2 {
-  font-size: 1.1rem;
-  font-weight: normal;
-  color: #6c757d;
-  margin-top: 0;
-}
+    footer {
+      width: 100%;
+      max-width: 800px;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e1e4e8;
+      font-size: 0.9rem;
+      color: #6c757d;
+      text-align: center;
+    }
 
-section {
-  width: 100%;
-}
+    @media (max-width: 600px) {
+      body {
+        padding: 1.25rem;
+      }
 
-section + section {
-  border-top: 1px solid #e1e4e8;
-  padding-top: 1.5rem;
-}
+      header img {
+        height: 130px;
+      }
 
-li {
-  margin-bottom: 0.6rem;
-  line-height: 1.5;
-}
-
-.join {
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-}
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
   </style>
 </head>
+
 <body>
-<header>
-  <img src="logo.png" alt="AIIS Lab Logo" />
 
-  <h1>Artificial Intelligence &amp; Intelligent Systems Laboratory</h1>
-  <h2>California State University, Fresno</h2>
+  <header>
 
-  <p>
-    Founded and directed by
-    <a href="https://www.apanagopoulos.com/" target="_blank" rel="noopener noreferrer">
-      <strong>Thanos Panagopoulos</strong>
-    </a>
-    &nbsp;|&nbsp;
-    <a href="https://www.apanagopoulos.com/research" target="_blank" rel="noopener noreferrer">
-      Projects
-    </a>
-    &nbsp;|&nbsp;
-    <a href="https://www.apanagopoulos.com/research" target="_blank" rel="noopener noreferrer">
-      Publications
-    </a>
-    &nbsp;|&nbsp;
-    <a href="https://github.com/AIISLab" target="_blank" rel="noopener noreferrer">
-      GitHub
-    </a>
-  </p>
-</header>
+    <img src="logo.png" alt="AIIS Lab Logo" />
 
+    <h1>Artificial Intelligence &amp; Intelligent Systems Laboratory</h1>
+
+    <h2>California State University, Fresno</h2>
+
+    <p>
+      Founded and directed by
+      <a
+        href="https://www.apanagopoulos.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <strong>Thanos Panagopoulos</strong>
+      </a>
+
+      &nbsp;|&nbsp;
+
+      <a
+        href="https://www.apanagopoulos.com/projects"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Projects
+      </a>
+
+      &nbsp;|&nbsp;
+
+      <a
+        href="https://www.apanagopoulos.com/publications"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Publications
+      </a>
+
+      &nbsp;|&nbsp;
+
+      <a
+        href="https://github.com/AIISLab"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
+    </p>
+
+  </header>
 
 
   <section class="about">
-  <h3>About the Lab</h3>
 
-  <p>
-    The Artificial Intelligence and Intelligent Systems (AIIS) Laboratory at
-    California State University, Fresno conducts interdisciplinary research
-    in artificial intelligence and intelligent systems, with an emphasis on
-    developing AI technologies with scientific and societal impact.
-  </p>
+    <h3>About the Lab</h3>
 
-  <ul>
-    <li>
-      <strong>Machine Learning &amp; Intelligent Decision-Making:</strong>
-      deep learning, generative AI, reinforcement learning, optimization,
-      intelligent control, and multiagent systems.
-    </li>
+    <p>
+      The Artificial Intelligence and Intelligent Systems (AIIS) Laboratory at
+      California State University, Fresno conducts interdisciplinary research
+      in artificial intelligence and intelligent systems, with an emphasis on
+      developing AI technologies with scientific and societal impact.
+    </p>
 
-    <li>
-      <strong>AI for Sustainable and Physical Systems:</strong>
-      climate-smart agriculture, energy and smart buildings, transportation,
-      scientific computing, sensing, and the Internet of Things.
-    </li>
+    <ul>
 
-    <li>
-      <strong>AI, Society &amp; Human Agency:</strong>
-      human–AI interaction, explainability, trustworthy AI, education,
-      public history, and the societal implications of AI and automation.
-    </li>
-  </ul>
+      <li>
+        <strong>Machine Learning &amp; Intelligent Decision-Making:</strong>
+        deep learning, generative AI, reinforcement learning, optimization,
+        intelligent control, and multiagent systems.
+      </li>
 
-  <p>
-    <a href="https://www.apanagopoulos.com/projects"
-       target="_blank"
-       rel="noopener noreferrer">
-      <strong>Explore our research and projects →</strong>
-    </a>
-  </p>
-</section>
+      <li>
+        <strong>AI for Sustainable Cyber-Physical Systems:</strong>
+        climate-smart agriculture, energy and smart buildings, transportation,
+        scientific computing, sensing, and the Internet of Things.
+      </li>
 
+      <li>
+        <strong>AI, Society &amp; Human Agency:</strong>
+        human–AI interaction, explainability, trustworthy AI, education,
+        public history, and the societal implications of AI and automation.
+      </li>
 
+    </ul>
 
-<section>
-  <h3>Research Support</h3>
+    <p>
+      <a
+        href="https://www.apanagopoulos.com/projects"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <strong>Explore our research and projects →</strong>
+      </a>
+    </p>
 
-  <p>
-    Our research has been supported by the National Science Foundation (NSF),
-    Google/CAHSI, the California Learning Lab, the California Energy Commission,
-    the Agricultural Research Institute, and California State University, Fresno.
-  </p>
-</section>
-
+  </section>
 
 
   <section>
-  <h3>Selected Projects</h3>
 
-  <ul>
-    <li>
-      <strong>
-        <a href="https://www.apanagopoulos.com/hibiki-ai"
-           target="_blank"
-           rel="noopener noreferrer">
-          Hibiki-AI
-        </a>
-      </strong>:
-      A generative-AI platform for source-grounded, interactive historical
-      learning based on Japanese American incarceration testimony.
-    </li>
+    <h3>Selected Projects</h3>
 
-    <li>
-      <strong>
-        <a href="https://www.apanagopoulos.com/ciwa"
-           target="_blank"
-           rel="noopener noreferrer">
-          CIWA &amp; CIWA+
-        </a>
-      </strong>:
-      Machine learning, computer vision, and multimodal sensing for intelligent
-      precision irrigation and crop water-stress estimation.
-    </li>
+    <ul>
 
-    <li>
-      <strong>Agr-IoT</strong>:
-      Low-cost, expandable, open-source Internet of Things infrastructure for
-      irrigation automation and sustainable agriculture.
-    </li>
+      <li>
+        <strong>
+          <a
+            href="https://www.apanagopoulos.com/hibiki-ai"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Hibiki-AI
+          </a>
+        </strong>:
+        a generative-AI platform for source-grounded, interactive historical
+        learning based on Japanese American incarceration testimony.
+      </li>
 
-    <li>
-      <strong>ROLLAM</strong>:
-      Research on improving and evaluating the robustness of large language models.
-    </li>
+      <li>
+        <strong>
+          <a
+            href="https://www.apanagopoulos.com/ciwa"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CIWA &amp; CIWA+
+          </a>
+        </strong>:
+        machine learning, computer vision, and multimodal sensing for
+        intelligent precision irrigation and crop water-stress estimation.
+      </li>
 
-    <li>
-      <strong>iAgriculture DMS</strong>:
-      Data-management technologies supporting accessible and intelligent
-      precision-agriculture systems.
-    </li>
-  </ul>
+      <li>
+        <strong>
+          <a
+            href="https://www.apanagopoulos.com/compactai"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CompactAI
+          </a>
+        </strong>:
+        hybrid machine-learning surrogate modeling for rapid scientific and
+        engineering simulation.
+      </li>
 
-  <p>
-    <a href="https://www.apanagopoulos.com/projects"
-       target="_blank"
-       rel="noopener noreferrer">
-      <strong>View the full project portfolio →</strong>
-    </a>
-  </p>
-</section>
+      <li>
+        <strong>Agr-IoT</strong>:
+        low-cost, expandable, open-source Internet of Things infrastructure
+        for irrigation automation and sustainable agriculture.
+      </li>
 
+      <li>
+        <strong>ROLLAM</strong>:
+        research on improving and evaluating the robustness of large language
+        models.
+      </li>
 
+    </ul>
+
+    <p>
+      <a
+        href="https://www.apanagopoulos.com/projects"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <strong>View the full project portfolio →</strong>
+      </a>
+    </p>
+
+  </section>
 
 
   <section>
-  <h3>Research Outputs</h3>
 
-  <p>
-    AIIS research has resulted in peer-reviewed publications, open-source
-    software, interactive research systems, and datasets spanning artificial
-    intelligence, intelligent systems, sustainable computing, and AI for science.
-  </p>
+    <h3>Research Outputs</h3>
 
-  <p>
-    <a href="https://www.apanagopoulos.com/publications"
-       target="_blank"
-       rel="noopener noreferrer">
-      <strong>Publications →</strong>
-    </a>
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="https://github.com/AIISLab"
-       target="_blank"
-       rel="noopener noreferrer">
-      <strong>Software &amp; GitHub →</strong>
-    </a>
-  </p>
-</section>
+    <p>
+      AIIS research has resulted in peer-reviewed publications, open-source
+      software, interactive research systems, and datasets spanning artificial
+      intelligence, intelligent systems, sustainable computing, and AI for
+      science.
+    </p>
 
-  
+    <p>
 
-<section class="join">
-  <h3>Interested in working with us?</h3>
+      <a
+        href="https://www.apanagopoulos.com/publications"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <strong>Publications →</strong>
+      </a>
 
-  <p>
-    AIIS welcomes motivated undergraduate and graduate students interested in
-    artificial intelligence, machine learning, generative AI, intelligent systems,
-    and interdisciplinary applications of AI.
-  </p>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
 
-  <p>
-    <a href="https://www.apanagopoulos.com/contact"
-       target="_blank"
-       rel="noopener noreferrer">
-      <strong>Student research opportunities →</strong>
-    </a>
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="mailto:apanagopoulos@mail.fresnostate.edu">
-      <strong>Contact us →</strong>
-    </a>
-  </p>
-</section>
+      <a
+        href="https://github.com/AIISLab"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <strong>Software &amp; GitHub →</strong>
+      </a>
+
+    </p>
+
+  </section>
 
 
+  <section>
 
-  
+    <h3>Research Support</h3>
 
-<footer>
-  Artificial Intelligence &amp; Intelligent Systems Laboratory ·
-  California State University, Fresno
-</footer>
-  
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+    <p>
+      Our research has been supported by the National Science Foundation (NSF),
+      Google/CAHSI, the California Learning Lab, the California Energy Commission,
+      the Agricultural Research Institute, and California State University,
+      Fresno.
+    </p>
+
+  </section>
+
+
+  <section class="join">
+
+    <h3>Interested in working with us?</h3>
+
+    <p>
+      AIIS welcomes motivated undergraduate and graduate students interested in
+      artificial intelligence, machine learning, generative AI, intelligent
+      systems, and interdisciplinary applications of AI.
+    </p>
+
+    <p>
+
+      <a
+        href="https://www.apanagopoulos.com/contact"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <strong>Student research opportunities →</strong>
+      </a>
+
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+
+      <a href="mailto:apanagopoulos@mail.fresnostate.edu">
+        <strong>Contact us →</strong>
+      </a>
+
+    </p>
+
+  </section>
+
+
+  <footer>
+    Artificial Intelligence &amp; Intelligent Systems Laboratory ·
+    California State University, Fresno
+  </footer>
+
 </body>
 </html>
